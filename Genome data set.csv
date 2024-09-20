@@ -1,0 +1,193 @@
+DNA SEQUENCE,DISEASES
+GCTAGCTAGTCGAGCT,Cystic Fibrosis
+AGGCTAGCTCGATGCA,Sickle Cell Anemia
+TCGAGCTTACGAGGCT,Huntington's Disease
+AGCTCGATCGATCGAT,Hemophilia
+CGTAGCTAGCTCGTCA,Marfan Syndrome
+GCTGCGTATCGCGTAC,Duchenne Muscular Dystrophy
+CAGTACGTAGTACGCT,Phenylketonuria (PKU)
+TACGTAGCGATCGAGT,Tay-Sachs Disease
+GCGTACGTACGTCGTA,Beta Thalassemia
+TCGTAGCATAGCGTAC,Neurofibromatosis
+CGTACGTAGCTAGTCA,Fragile X Syndrome
+ATCGTACGTCGAGCAT,Alpha-1 Antitrypsin Deficiency
+GCGTACGTCGATAGCT,Wilson Disease
+TACGATCGATCGTACG,Friedreich's Ataxia
+GATCGTACGTAGCGAT,Retinitis Pigmentosa
+CGTAGCTACGTAGCTA,Hereditary Hemochromatosis
+GATCGTAGCTAGCTAC,Familial Mediterranean Fever
+TCGATAGCTCGTCAGT,Alport Syndrome
+GCTACGTAGCTAGTCG,Charcot-Marie-Tooth Disease
+CGATCGTACGTCGATC,Ehlers-Danlos Syndrome
+AGTCGTCGATAGCTAC,Hereditary Breast Cancer (BRCA1)
+CGTAGCTAGCTAGTCG,Polycystic Kidney Disease
+AGTCGATCGTAGCTGA,Gaucher Disease
+GATCGTACGCTAGTAC,Tay-Sachs Disease
+GCTAGTCGTCGATGCA,Spinal Muscular Atrophy
+CGATAGCTAGCTGACT,Hereditary Angioedema
+TCGAGCTACGTACGTA,Achondroplasia
+GTCGATCGTACGTAGC,Cystic Fibrosis
+GATCGTCAGTACGTAC,Huntington's Disease
+AGTCGTCAGCTAGTAC,Sickle Cell Anemia
+TCGAGCTAGTCGTCAT,Fanconi Anemia
+GCTAGCTAGCTAGCTA,Phenylketonuria
+CGATAGTCGATCGTAC,Retinitis Pigmentosa
+TCGATCGTACGCTAGT,Familial Adenomatous Polyposis
+CGTAGCTAGTCAGTCA,Hereditary Breast Cancer (BRCA2)
+GCTAGCTAGCTGCTAC,Wilson Disease
+GTCAGCTAGCTACGTC,Marfan Syndrome
+GATCGTCAGCTGCTAC,Alpha-1 Antitrypsin Deficiency
+CGTAGCTGCTAGTCGA,Neurofibromatosis
+TCGTAGCTGCTACGAT,Tay-Sachs Disease
+GCTACGTAGCGATCGA,Beta Thalassemia
+TCGTAGCTAGTCAGTA,Polycystic Kidney Disease
+CGTAGCTAGCTAGCTG,Fragile X Syndrome
+GCTAGTCAGTCGATCG,Gaucher Disease
+CGTAGCTAGCTCGTAC,Alport Syndrome
+GCTAGCTAGTACGTAG,Charcot-Marie-Tooth Disease
+CGTAGCTAGTCGATCG,Hereditary Hemochromatosis
+AGTCGTCAGCTAGCTA,Ehlers-Danlos Syndrome
+GATCGTACGTCGATCG,Fanconi Anemia
+TCGATCGTACGTAGCT,Huntington's Disease
+CGTAGCTAGTCGATCG,Phenylketonuria
+GCTAGTCAGTCGATAG,Wilson Disease
+CGTAGCTAGCTAGTCG,Sickle Cell Anemia
+AGTCGATCGTACGTAG,Hereditary Angioedema
+CGTAGCTAGTCAGTAC,Tay-Sachs Disease
+TCGATCGTACGTAGCG,Neurofibromatosis
+CGTAGCTAGTCGATGC,Duchenne Muscular Dystrophy
+GCTAGTCAGTCGATGC,Familial Adenomatous Polyposis
+AGTCGTCAGTCAGTAC,Friedreich's Ataxia
+CGTAGCTAGTCGATCG,Marfan Syndrome
+TCGATCGTACGTAGCG,Cystic Fibrosis
+CGTAGCTAGCTGTCGA,Retinitis Pigmentosa
+GCTAGTCAGCTAGTAC,Hereditary Breast Cancer (BRCA1)
+CGTAGCTAGTCGATCG,Charcot-Marie-Tooth Disease
+AGTCGTCAGTCGCTAC,Wilson Disease
+GATCGTCAGCTAGTGC,Beta Thalassemia
+TCGTAGCTAGTCGACT,Alport Syndrome
+GCTAGTCAGTCGATGC,Polycystic Kidney Disease
+CGTAGCTAGCTAGTGC,Gaucher Disease
+TCGTAGCTAGTCAGCT,Achondroplasia
+CGTAGCTAGTCGATAC,Familial Mediterranean Fever
+GCTAGCTAGCTGTCGA,Huntington's Disease
+AGTCGTCAGTCAGTAC,Hereditary Hemochromatosis
+CGTAGCTAGTCAGTAC,Neurofibromatosis
+TCGTAGCTAGCTAGTC,Phenylketonuria
+CGTAGCTAGTCGACTG,Fanconi Anemia
+GCTAGTCAGCTAGCTG,Friedreich's Ataxia
+TCGTAGCTAGTCAGTG,Wilson Disease
+CGTAGCTAGTCGATGC,Alpha-1 Antitrypsin Deficiency
+AGTCGTCAGTCAGTGC,Cystic Fibrosis
+CGTAGCTAGCTAGTCG,Marfan Syndrome
+TCGTAGCTAGCTAGTG,Tay-Sachs Disease
+GCTAGTCAGCTAGCTC,Fragile X Syndrome
+CGTAGCTAGCTAGTCG,Charcot-Marie-Tooth Disease
+GACTGACTGATCGACT,Familial Mediterranean Fever
+CGTAGCTGACTAGTCG,Hereditary Angioedema
+TCGATCGTAGCTGATC,Tay-Sachs Disease
+AGCTGACTAGCTAGTC,Neurofibromatosis
+GACTGATCGTAGCTGA,Marfan Syndrome
+CTAGCTGACTAGCTGA,Duchenne Muscular Dystrophy
+GTCAGCTGACTGAGCT,Cystic Fibrosis
+AGTCGACTAGCTGACT,Sickle Cell Anemia
+TCGATCGACTAGTCGA,Huntington's Disease
+GATCGACTAGTCGATC,Familial Hypercholesterolemia
+CGATCGTAGCTAGTCA,Hemophilia A
+TCGACTAGCTAGCTGA,Fragile X Syndrome
+AGTCGACTGATCGACT,Thalassemia
+GATCGATCGTAGCTGA,Retinitis Pigmentosa
+CTAGCTGAGTCGACTG,Wilson’s Disease
+GCTAGTCGACTGACTC,Polycystic Kidney Disease
+AGTCGACTAGCTGATC,Alpha-1 Antitrypsin Deficiency
+CGTAGCTGACTAGCTG,Leigh Syndrome
+TCGATCGACTAGCTAG,Charcot-Marie-Tooth Disease
+AGTCGACTGACTGAGT,Achondroplasia
+GATCGACTGACTGATC,Alport Syndrome
+CGATCGTAGCTGACTC,Ehlers-Danlos Syndrome
+TCGATCGACTGATCGA,Gaucher Disease
+AGTCGACTAGCTGAGT,Niemann-Pick Disease
+GATCGATCGTAGCTAG,Cystinosis
+CTAGCTGACTAGTCGA,Krabbe Disease
+GTCAGCTGATCGAGTC,Prader-Willi Syndrome
+AGCTGACTAGTCGATC,Rett Syndrome
+TCGATCGACTAGTCGA,Bardet-Biedl Syndrome
+GATCGACTGATCGTAG,Hereditary Spastic Paraplegia
+CGATCGTAGCTGAGCT,Tay-Sachs Disease
+TCGACTAGCTGATCGT,Maple Syrup Urine Disease
+AGTCGACTAGCTGATC,Glanzmann Thrombasthenia
+GATCGATCGACTAGCT,Usher Syndrome
+CTAGCTGATCGAGTCG,Stickler Syndrome
+GCTAGTCGACTAGCTG,Fanconi Anemia
+AGTCGACTAGTCGATC,Long QT Syndrome
+CGTAGCTAGTCGACTC,Friedreich’s Ataxia
+TCGACTAGTCGATCGA,Canavan Disease
+GACTGATCGTAGCTAG,Osteogenesis Imperfecta
+CTAGCTGAGTCGATCG,Fabry Disease
+GATCGATCGACTGACT,Pompe Disease
+AGTCGACTAGCTGACT,Juvenile Huntington's Disease
+CGTAGCTGACTAGTCG,Alpha-Thalassemia
+TCGACTAGTCGACTGA,Familial Adenomatous Polyposis
+GATCGACTAGCTAGTC,Zellweger Syndrome
+CTAGCTGATCGACTGA,Wilson’s Disease
+GCTAGTCGATCGAGTC,Amyotrophic Lateral Sclerosis (ALS)
+AGTCGACTAGTCGATC,Spinal Muscular Atrophy
+CGTAGCTGATCGACTG,Cystinosis
+TCGACTAGCTGAGTCG,Hereditary Hemochromatosis
+GACTGACTAGCTGATC,Multiple Endocrine Neoplasia
+CTAGCTGATCGAGTCA,Retinitis Pigmentosa
+GCTAGTCGACTAGTCA,Familial Mediterranean Fever
+AGTCGACTAGTCGACT,Hereditary Angioedema
+CGTAGCTGACTGATCA,Bardet-Biedl Syndrome
+TCGATCGTAGCTAGTC,Leigh Syndrome
+GACTGATCGACTAGTC,Familial Hypertrophic Cardiomyopathy
+CTAGCTGACTGATCGT,Marfan Syndrome
+GCTAGTCGATCGTAGC,Niemann-Pick Disease
+AGTCGACTGACTAGCT,Congenital Adrenal Hyperplasia
+CGTAGCTGACTGAGTC,Ehlers-Danlos Syndrome
+TCGACTAGCTGAGTCA,Hereditary Breast Cancer (BRCA1/2)
+GATCGACTAGCTGATC,Hemophilia A
+CTAGCTGACTGAGTCA,Wilson's Disease
+GTCAGCTGACTAGCTC,Duchenne Muscular Dystrophy
+AGTCGACTAGTCGATC,Huntington’s Disease
+CGTAGCTGACTAGCTG,Fanconi Anemia
+TCGACTAGTCGAGTCA,Tay-Sachs Disease
+GATCGACTGATCGTGA,Sickle Cell Anemia
+AGTCGATCGTAGCTGA,Spinal Muscular Atrophy
+CTAGCTGAGTCGACTC,Maple Syrup Urine Disease
+GTCAGCTGATCGTAGC,Polycystic Kidney Disease
+AGTCGACTGACTAGTC,Alpha-Thalassemia
+CGTAGCTGACTGATCG,Glanzmann Thrombasthenia
+TCGATCGTAGCTAGTC,Hereditary Hemorrhagic Telangiectasia
+GATCGACTAGCTGACT,Friedreich’s Ataxia
+CTAGCTGACTGAGTCA,Niemann-Pick Disease
+GCTAGTCGACTAGCTG,Wilson’s Disease
+AGTCGACTGACTAGCT,Huntington's Disease
+CGTAGCTGACTGATCA,Hereditary Spastic Paraplegia
+TCGATCGACTAGTCGA,Usher Syndrome
+GATCGACTGATCGACT,Hereditary Neuropathy
+CTAGCTGATCGACTGA,Ehlers-Danlos Syndrome
+GCTAGTCGACTAGTCG,Canavan Disease
+AGTCGACTGACTAGTC,Leigh Syndrome
+CGTAGCTGACTAGTCA,Krabbe Disease
+TCGACTAGCTAGCTGA,Juvenile Huntington's Disease
+GATCGATCGTAGCTGA,Glanzmann Thrombasthenia
+CTAGCTGACTAGTCGA,Prader-Willi Syndrome
+GCTAGTCGACTAGCTA,Cystic Fibrosis
+AGTCGACTAGCTGATC,Familial Hypercholesterolemia
+CGTAGCTGACTGATCG,Osteogenesis Imperfecta
+TCGACTAGTCGACTGA,Fabry Disease
+GATCGACTGATCGTAG,Alpha-1 Antitrypsin Deficiency
+AGTCGACTAGCTGACT,Tay-Sachs Disease
+CTAGCTGATCGAGTCG,Wilson's Disease
+GCTAGTCGATCGTAGC,Familial Adenomatous Polyposis
+AGTCGACTGACTAGCT,Hereditary Spastic Paraplegia
+CGTAGCTGACTGATCG,Retinitis Pigmentosa
+TCGATCGACTAGTCGA,Krabbe Disease
+GACTGATCGTAGCTAG,Bardet-Biedl Syndrome
+CTAGCTGATCGACTGA,Alport Syndrome
+GTCAGCTGATCGTAGC,Niemann-Pick Disease
+AGTCGACTAGCTGATC,Ehlers-Danlos Syndrome
+CGTAGCTGACTAGTCA,Glanzmann Thrombasthenia
+TCGATCGACTAGTCGA,Wilson's Disease
+GACTGATCGTAGCTGA,Pompe Disease

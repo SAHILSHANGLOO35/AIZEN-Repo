@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA Sequence Disease Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('https://media.istockphoto.com/id/1150397413/photo/abstract-luminous-dna-molecule-genetic-and-gene-manipulation-concept-cut-of-replacing-part-of.jpg?s=612x612&w=0&k=20&c=VeYfrR1rQgValbshvkMrBh_uAfD0x675wHI8YpGY0d0=');
+            background-size: cover;
+            background-position: center;
+            font-weight: bold;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        #dna-search {
+            width: 200px;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+
+        #search-button {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #search-button:hover {
+            background-color: #45a049;
+        }
+
+        #result, #diseases {
+            margin-top: 1rem;
+        }
+
+        #search-section, #result-section {
+            margin-bottom: 2rem;
+        }
+
+        .disease-item {
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="search-section">
+            <h1>DNA Sequence Disease Predictor</h1>
+            <input type="text" id="dna-search" placeholder="Enter 16 character DNA sequence" maxlength="16" pattern="[ATCG]{16}">
+            <br>
+            <button id="search-button">Predict Diseases</button>
+            <p id="result"></p>
+        </div>
+        <div id="result-section" style="display: none;">
+            <h2>Predicted Diseases</h2>
+            <div id="diseases"></div>
+            <button id="back-button">Back to Search</button>
+        </div>
+    </div>
+
+    <script>
+        const searchSection = document.getElementById('search-section');
+        const resultSection = document.getElementById('result-section');
+        const dnaSearch = document.getElementById('dna-search');
+        const searchButton = document.getElementById('search-button');
+        const backButton = document.getElementById('back-button');
+        const resultElement = document.getElementById('result');
+        const diseasesElement = document.getElementById('diseases');
+
+        // Mock disease prediction function
+        function predictDiseases(dnaSequence) {
+            const diseases = [
+                "Cystic Fibrosis",
+                "Sickle Cell Anemia",
+                "Huntington's Disease",
+                "Hemophilia",
+                "Tay-Sachs Disease",
+                "Duchenne Muscular Dystrophy",
+                "Fragile X Syndrome",
+                "Phenylketonuria (PKU)",
+                "Spinal Muscular Atrophy",
+                "Marfan Syndrome"
+            ];
+            
+            // Use the DNA sequence to generate a pseudo-random number of diseases (1-3)
+            const numDiseases = (dnaSequence.split('').reduce((sum, char) => sum + char.charCodeAt(0), 0) % 3) + 1;
+            
+            // Shuffle the diseases array and take the first numDiseases elements
+            return diseases.sort(() => 0.5 - Math.random()).slice(0, numDiseases);
+        }
+
+        searchButton.addEventListener('click', function() {
+            const dnaSequence = dnaSearch.value.toUpperCase();
+
+            if (dnaSequence.length !== 16 || !/^[ATCG]+$/.test(dnaSequence)) {
+                resultElement.textContent = 'Please enter a valid 16 character DNA sequence (A, T, C, G only).';
+            } else {
+                const predictedDiseases = predictDiseases(dnaSequence);
+                diseasesElement.innerHTML = predictedDiseases.map(disease => 
+                    `<div class="disease-item">${disease}</div>`
+                ).join('');
+                
+                searchSection.style.display = 'none';
+                resultSection.style.display = 'block';
+            }
+        });
+
+        backButton.addEventListener('click', function() {
+            searchSection.style.display = 'block';
+            resultSection.style.display = 'none';
+            dnaSearch.value = '';
+            resultElement.textContent = '';
+        });
+    </script>
+</body>
+</html>
